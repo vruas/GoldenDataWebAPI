@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|c:\\users\\vitor\\source\\repos\\webapigoldendata\\webapigoldendata\\services\\infoconsumidor\\infoconsumidorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|solutionrelative:webapigoldendata\\services\\infoconsumidor\\infoconsumidorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|c:\\users\\vitor\\source\\repos\\webapigoldendata\\webapigoldendata\\services\\infoconsumidor\\iinfoconsumidorinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|solutionrelative:webapigoldendata\\services\\infoconsumidor\\iinfoconsumidorinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|c:\\users\\vitor\\source\\repos\\webapigoldendata\\webapigoldendata\\dto\\linkconsumidorinfo\\linkconsumidorinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|solutionrelative:webapigoldendata\\dto\\linkconsumidorinfo\\linkconsumidorinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|c:\\users\\vitor\\source\\repos\\webapigoldendata\\webapigoldendata\\models\\consumidormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|solutionrelative:webapigoldendata\\models\\consumidormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|c:\\users\\vitor\\source\\repos\\webapigoldendata\\webapigoldendata\\services\\consumidor\\consumidorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|solutionrelative:webapigoldendata\\services\\consumidor\\consumidorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|c:\\users\\vitor\\source\\repos\\webapigoldendata\\webapigoldendata\\dto\\consumidor\\editarconsumidordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|solutionrelative:webapigoldendata\\dto\\consumidor\\editarconsumidordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|c:\\users\\vitor\\source\\repos\\webapigoldendata\\webapigoldendata\\dto\\consumidor\\criarconsumidordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840E9B17-9732-4B5A-BC58-50736BA44EC5}|WebAPIGoldenData\\WebAPIGoldenData.csproj|solutionrelative:webapigoldendata\\dto\\consumidor\\criarconsumidordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InfoConsumidorService.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Services\\InfoConsumidor\\InfoConsumidorService.cs",
+              "RelativeDocumentMoniker": "WebAPIGoldenData\\Services\\InfoConsumidor\\InfoConsumidorService.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Services\\InfoConsumidor\\InfoConsumidorService.cs",
+              "RelativeToolTip": "WebAPIGoldenData\\Services\\InfoConsumidor\\InfoConsumidorService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:51:36.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IInfoConsumidorInterface.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Services\\InfoConsumidor\\IInfoConsumidorInterface.cs",
+              "RelativeDocumentMoniker": "WebAPIGoldenData\\Services\\InfoConsumidor\\IInfoConsumidorInterface.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Services\\InfoConsumidor\\IInfoConsumidorInterface.cs",
+              "RelativeToolTip": "WebAPIGoldenData\\Services\\InfoConsumidor\\IInfoConsumidorInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:51:32.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LinkConsumidorInfoDto.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Dto\\LinkConsumidorInfo\\LinkConsumidorInfoDto.cs",
+              "RelativeDocumentMoniker": "WebAPIGoldenData\\Dto\\LinkConsumidorInfo\\LinkConsumidorInfoDto.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Dto\\LinkConsumidorInfo\\LinkConsumidorInfoDto.cs",
+              "RelativeToolTip": "WebAPIGoldenData\\Dto\\LinkConsumidorInfo\\LinkConsumidorInfoDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:50:45.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditarConsumidorDto.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Dto\\Consumidor\\EditarConsumidorDto.cs",
+              "RelativeDocumentMoniker": "WebAPIGoldenData\\Dto\\Consumidor\\EditarConsumidorDto.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Dto\\Consumidor\\EditarConsumidorDto.cs",
+              "RelativeToolTip": "WebAPIGoldenData\\Dto\\Consumidor\\EditarConsumidorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:13:27.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConsumidorService.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Services\\Consumidor\\ConsumidorService.cs",
+              "RelativeDocumentMoniker": "WebAPIGoldenData\\Services\\Consumidor\\ConsumidorService.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Services\\Consumidor\\ConsumidorService.cs",
+              "RelativeToolTip": "WebAPIGoldenData\\Services\\Consumidor\\ConsumidorService.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAgwG8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:12:36.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CriarConsumidorDto.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Dto\\Consumidor\\CriarConsumidorDto.cs",
+              "RelativeDocumentMoniker": "WebAPIGoldenData\\Dto\\Consumidor\\CriarConsumidorDto.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Dto\\Consumidor\\CriarConsumidorDto.cs",
+              "RelativeToolTip": "WebAPIGoldenData\\Dto\\Consumidor\\CriarConsumidorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:12:08.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConsumidorModel.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Models\\ConsumidorModel.cs",
+              "RelativeDocumentMoniker": "WebAPIGoldenData\\Models\\ConsumidorModel.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\Models\\ConsumidorModel.cs",
+              "RelativeToolTip": "WebAPIGoldenData\\Models\\ConsumidorModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:11:31.275Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+[
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.ConsumidorController",
+    "Method": "AtualizarConsumidor",
+    "RelativePath": "api/Consumidor/AtualizarConsumidor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarConsumidorDto",
+        "Type": "WebAPIGoldenData.Dto.Consumidor.EditarConsumidorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.ConsumidorModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.ConsumidorController",
+    "Method": "BuscaConsumidorPorId",
+    "RelativePath": "api/Consumidor/BuscaConsumidorPorId/{idConsumidor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idConsumidor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[WebAPIGoldenData.Models.ConsumidorModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.ConsumidorController",
+    "Method": "CadastrarConsumidor",
+    "RelativePath": "api/Consumidor/CadastrarConsumidor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarConsumidorDto",
+        "Type": "WebAPIGoldenData.Dto.Consumidor.CriarConsumidorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.ConsumidorModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.ConsumidorController",
+    "Method": "DeletarConsumidor",
+    "RelativePath": "api/Consumidor/DeletarConsumidor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idConsumidor",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.ConsumidorModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.ConsumidorController",
+    "Method": "ListarConsumidores",
+    "RelativePath": "api/Consumidor/ListarConsumidores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.ConsumidorModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.InfoConsumidorController",
+    "Method": "AtualizarInfoConsumidor",
+    "RelativePath": "api/InfoConsumidor/AtualizarInfoConsumidor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarInfoConsumidorDto",
+        "Type": "WebAPIGoldenData.Dto.InfoConsumidor.EditarInfoConsumidorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.InfoConsumidorModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.InfoConsumidorController",
+    "Method": "BuscarInfoConsumidorPorId",
+    "RelativePath": "api/InfoConsumidor/BuscarInfoConsumidorPorId/{idInfoConsumidor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idInfoConsumidor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[WebAPIGoldenData.Models.InfoConsumidorModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.InfoConsumidorController",
+    "Method": "BuscarInfoConsumidorPorIdConsumidor",
+    "RelativePath": "api/InfoConsumidor/BuscarInfoConsumidorPorIdConsumidor/{idConsumidor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idConsumidor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.InfoConsumidorModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.InfoConsumidorController",
+    "Method": "DeletarInfoConsumidor",
+    "RelativePath": "api/InfoConsumidor/DeletarInfoConsumidor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idInfoConsumidor",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.InfoConsumidorModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.InfoConsumidorController",
+    "Method": "InseriInfoConsumidor",
+    "RelativePath": "api/InfoConsumidor/InserirInfoConsumidor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarInfoConsumidorDto",
+        "Type": "WebAPIGoldenData.Dto.InfoConsumidor.CriarInfoConsumidorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.InfoConsumidorModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.InfoConsumidorController",
+    "Method": "ListarInfosConumidor",
+    "RelativePath": "api/InfoConsumidor/ListarInfosConsumidor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[WebAPIGoldenData.Models.InfoConsumidorModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebAPIGoldenData.WeatherForecast, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
