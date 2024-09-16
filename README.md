@@ -1,3 +1,18 @@
+INTEGRANTES:
+
+98774 -	Gabriel Previ de Oliveira (2TDSPV)
+
+97850 -	Gustavo Soares Fosaluza (2TDSPF)
+
+551692 - Mateus Vinicius da Conceição Silva (2TDSPV)
+
+552000 - Pedro Henrique Figueiredo de Oliveira (2TDSPV)
+
+550871 - Vitor da Silva Ruas (2TDSPV)
+
+
+
+
 # Golden Data
 
 **Golden Data** é uma plataforma inovadora que facilita a troca direta de informações entre empresas e clientes, maximizando a personalização de serviços e campanhas de marketing, especialmente voltada para o comércio eletrônico. Nosso objetivo é aprimorar a experiência do cliente e aumentar o retorno sobre investimento (ROI) das empresas por meio de segmentação precisa e conteúdo direcionado.
