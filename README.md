@@ -1,4 +1,4 @@
-# Golden Data - Plataforma de Personalização de Serviços
+# Golden Data
 
 **Golden Data** é uma plataforma inovadora que facilita a troca direta de informações entre empresas e clientes, maximizando a personalização de serviços e campanhas de marketing, especialmente voltada para o comércio eletrônico. Nosso objetivo é aprimorar a experiência do cliente e aumentar o retorno sobre investimento (ROI) das empresas por meio de segmentação precisa e conteúdo direcionado.
 
@@ -76,6 +76,41 @@ Para garantir a segurança e eficiência na transferência de dados entre as cam
 - **Escalabilidade**: À medida que a aplicação cresce, a estrutura modular permite adicionar novas funcionalidades e fontes de dados com o mínimo de impacto no código existente.
 
 Essa arquitetura garante que o sistema permaneça limpo, desacoplado e fácil de evoluir, fornecendo uma base sólida para futuras implementações, como integração com novas fontes de dados, serviços externos e funcionalidades adicionais.
+
+## Passo a Passo para Testar a API com o Swagger
+
+### Passo 1: Abrir o Swagger UI
+Após executar a API, o navegador abrirá a interface do **Swagger UI**. A URL geralmente será algo como:
+
+https://localhost:7273/swagger/index.html
+
+
+(O número da porta pode variar conforme o ambiente de execução).
+
+### Passo 2: Explorar os Endpoints
+Na interface do **Swagger**, você verá a lista de todos os endpoints disponíveis em sua API, organizados por controladores.
+
+- Cada endpoint terá uma breve descrição.
+- O método HTTP associado (GET, POST, PUT, DELETE) será exibido.
+- Haverá uma opção de expandir para visualizar detalhes, como parâmetros e respostas.
+
+### Passo 3: Testar um Endpoint
+1. Clique em um endpoint para expandi-lo.
+2. Caso o endpoint exija parâmetros, como **body**, eles serão exibidos para preenchimento.
+3. Após preencher os parâmetros necessários, clique em **Try it out**.
+4. O Swagger enviará uma requisição para o endpoint e retornará a resposta, incluindo:
+   - **Status code**
+   - **Corpo da resposta**
+   - **Cabeçalho da requisição**
+
+### Passo 4: Verificar a Resposta
+Após executar a requisição no Swagger:
+
+1. A resposta será exibida logo abaixo, mostrando o **status HTTP** (ex.: 200 OK, 404 Not Found, etc.).
+2. O **corpo da resposta** será mostrado no formato JSON (ou outro formato, dependendo do tipo de conteúdo retornado pela API).
+3. Você pode revisar as informações e, se necessário, ajustar os parâmetros e tentar novamente.
+4. Atente-se aos tipos de dados que o endpoint pede para preencher (string, int, bool, double...)
+
 
 
 ## Evidências:
