@@ -3,12 +3,14 @@ using Microsoft.AspNetCore.Mvc;
 using WebAPIGoldenData.Services.InfoConsumidor;
 using WebAPIGoldenData.Dto.InfoConsumidor;
 using WebAPIGoldenData.Models;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace WebAPIGoldenData.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class InfoConsumidorController : ControllerBase
     {
         private readonly IInfoConsumidorInterface _infoConsumidorInterface;

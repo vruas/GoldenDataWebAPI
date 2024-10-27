@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebAPIGoldenData.Dto.Consumidor;
 using WebAPIGoldenData.Models;
@@ -8,6 +8,7 @@ namespace WebAPIGoldenData.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ConsumidorController : ControllerBase
     {
         private readonly IConsumidorInterface _consumidorInterface;
