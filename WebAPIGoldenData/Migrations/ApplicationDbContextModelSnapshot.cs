@@ -16,7 +16,7 @@ namespace WebAPIGoldenData.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.8")
+                .HasAnnotation("ProductVersion", "8.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             OracleModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -56,6 +56,57 @@ namespace WebAPIGoldenData.Migrations
                     b.HasKey("IdConsumidor");
 
                     b.ToTable("CONSUMIDOR");
+                });
+
+            modelBuilder.Entity("WebAPIGoldenData.Models.FeedbackModel", b =>
+                {
+                    b.Property<int>("IdFeedback")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdFeedback"));
+
+                    b.Property<int>("Avaliacao")
+                        .HasColumnType("NUMBER(10)");
+
+                    b.Property<string>("Comentario")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<int>("ConsumidorIdConsumidor")
+                        .HasColumnType("NUMBER(10)");
+
+                    b.HasKey("IdFeedback");
+
+                    b.HasIndex("ConsumidorIdConsumidor");
+
+                    b.ToTable("FEEDBACK");
+                });
+
+            modelBuilder.Entity("WebAPIGoldenData.Models.HistoricoCompraModel", b =>
+                {
+                    b.Property<int>("IdHistoricoCompra")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdHistoricoCompra"));
+
+                    b.Property<int>("ConsumidorIdConsumidor")
+                        .HasColumnType("NUMBER(10)");
+
+                    b.Property<string>("DataCompra")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<string>("ValorCompra")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.HasKey("IdHistoricoCompra");
+
+                    b.HasIndex("ConsumidorIdConsumidor");
+
+                    b.ToTable("HISTORICO_COMPRA");
                 });
 
             modelBuilder.Entity("WebAPIGoldenData.Models.InfoConsumidorModel", b =>
@@ -100,6 +151,58 @@ namespace WebAPIGoldenData.Migrations
                     b.ToTable("INFO_CONSUMIDOR");
                 });
 
+            modelBuilder.Entity("WebAPIGoldenData.Models.PagamentoModel", b =>
+                {
+                    b.Property<int>("IdPagamento")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdPagamento"));
+
+                    b.Property<int>("HistoricoCompraIdHistoricoCompra")
+                        .HasColumnType("NUMBER(10)");
+
+                    b.Property<string>("MetodoPagamento")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<string>("StatusPagamento")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<string>("ValorPagamento")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.HasKey("IdPagamento");
+
+                    b.HasIndex("HistoricoCompraIdHistoricoCompra");
+
+                    b.ToTable("PAGAMENTO");
+                });
+
+            modelBuilder.Entity("WebAPIGoldenData.Models.FeedbackModel", b =>
+                {
+                    b.HasOne("WebAPIGoldenData.Models.ConsumidorModel", "Consumidor")
+                        .WithMany("Feedbacks")
+                        .HasForeignKey("ConsumidorIdConsumidor")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Consumidor");
+                });
+
+            modelBuilder.Entity("WebAPIGoldenData.Models.HistoricoCompraModel", b =>
+                {
+                    b.HasOne("WebAPIGoldenData.Models.ConsumidorModel", "Consumidor")
+                        .WithMany("HistoricoCompras")
+                        .HasForeignKey("ConsumidorIdConsumidor")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Consumidor");
+                });
+
             modelBuilder.Entity("WebAPIGoldenData.Models.InfoConsumidorModel", b =>
                 {
                     b.HasOne("WebAPIGoldenData.Models.ConsumidorModel", "Consumidor")
@@ -111,9 +214,29 @@ namespace WebAPIGoldenData.Migrations
                     b.Navigation("Consumidor");
                 });
 
+            modelBuilder.Entity("WebAPIGoldenData.Models.PagamentoModel", b =>
+                {
+                    b.HasOne("WebAPIGoldenData.Models.HistoricoCompraModel", "HistoricoCompra")
+                        .WithMany("Pagamentos")
+                        .HasForeignKey("HistoricoCompraIdHistoricoCompra")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("HistoricoCompra");
+                });
+
             modelBuilder.Entity("WebAPIGoldenData.Models.ConsumidorModel", b =>
                 {
+                    b.Navigation("Feedbacks");
+
+                    b.Navigation("HistoricoCompras");
+
                     b.Navigation("InfosConsumidor");
+                });
+
+            modelBuilder.Entity("WebAPIGoldenData.Models.HistoricoCompraModel", b =>
+                {
+                    b.Navigation("Pagamentos");
                 });
 #pragma warning restore 612, 618
         }

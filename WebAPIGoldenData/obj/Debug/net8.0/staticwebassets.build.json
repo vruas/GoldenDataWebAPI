@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "4+MfI7P+HxRu/QLpeTk1ts05jvDM7j42x6OPEmoKkSg=",
+  "Hash": "rCS+zWdMHHskSO1RF0HGQLnt3wxIfyJQ5kqOqivqvBg=",
   "Source": "WebAPIGoldenData",
   "BasePath": "_content/WebAPIGoldenData",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPIGoldenData\\wwwroot",
+      "Source": "WebAPIGoldenData",
+      "ContentRoot": "C:\\Users\\vitor\\Documents\\fiap\\2° ANO\\.NET\\GoldenDataWebAPI\\WebAPIGoldenData\\wwwroot\\",
+      "BasePath": "_content/WebAPIGoldenData",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\vitor\\Documents\\fiap\\2° ANO\\.NET\\GoldenDataWebAPI\\WebAPIGoldenData\\wwwroot\\MLModels\\ModeloSentimento.zip",
+      "SourceId": "WebAPIGoldenData",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vitor\\Documents\\fiap\\2° ANO\\.NET\\GoldenDataWebAPI\\WebAPIGoldenData\\wwwroot\\",
+      "BasePath": "_content/WebAPIGoldenData",
+      "RelativePath": "MLModels/ModeloSentimento.zip",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MLModels\\ModeloSentimento.zip"
+    }
+  ]
 }

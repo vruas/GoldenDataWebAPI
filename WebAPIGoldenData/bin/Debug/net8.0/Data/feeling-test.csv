@@ -1,0 +1,21 @@
+Comentario,Avaliacao,Sentimento
+"Produto veio sem defeitos, qualidade ok.",3,Neutro
+"Entrega super rápida, excelente",5,Positivo
+"Produto razoável, nada demais",3,Negativo
+"Demorou muito para chegar",2,Negativo
+"Gostei muito, atendeu às expectativas",5,Positivo
+"Produto funcional, atende bem.",3,Neutro
+"Atendimento muito bom, prestativo",5,Positivo
+"Bom produto, mas entrega lenta",3,Negativo
+"Produto ruim e mal acabado",2,Negativo
+"Chegou rápido e em perfeito estado",5,Positivo
+"Produto razoável, mas poderia ser melhor.",3,Neutro
+"Não vale o preço, qualidade ruim",1,Negativo
+"Produto muito bom pelo preço",4,Positivo
+"Qualidade excelente e ótimo atendimento",5,Positivo
+"Entrega rápida, produto de qualidade mediana.",3,Neutro
+"Entrega dentro do prazo e produto bem embalado",4,Positivo
+"Não recomendo, qualidade abaixo do esperado",1,Negativo
+"Produto cumpre bem o que promete",4,Positivo
+"Entrega rápida, mas qualidade mediana",3,Positivo
+"Recebi o que foi anunciado, sem surpresas.",3,Neutro

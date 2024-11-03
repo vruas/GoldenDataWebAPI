@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\vitor\\Documents\\fiap\\2° ANO\\.NET\\GoldenDataWebAPI\\WebAPIGoldenData\\wwwroot\\MLModels\\ModeloSentimento.zip",
+      "PackagePath": "staticwebassets\\MLModels\\ModeloSentimento.zip"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebAPIGoldenData.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebAPIGoldenData.props",
+      "PackagePath": "build\\WebAPIGoldenData.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebAPIGoldenData.props",
+      "PackagePath": "buildMultiTargeting\\WebAPIGoldenData.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebAPIGoldenData.props",
+      "PackagePath": "buildTransitive\\WebAPIGoldenData.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

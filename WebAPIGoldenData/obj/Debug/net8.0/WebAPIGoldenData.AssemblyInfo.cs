@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAPIGoldenData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1401469f25f23d1d77dc971d638433365919ae69")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAPIGoldenData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAPIGoldenData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

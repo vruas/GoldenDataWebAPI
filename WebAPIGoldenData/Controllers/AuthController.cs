@@ -18,7 +18,7 @@ namespace WebAPIGoldenData.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginModel login)
         {
-            if (login.Username == "vetoor" && login.Password == "gd123")
+            if (login.Username == "admin" && login.Password == "gd123")
             {
                 var token = _tokneService.GenerateToken(login.Username);
                 return Ok(new { token });

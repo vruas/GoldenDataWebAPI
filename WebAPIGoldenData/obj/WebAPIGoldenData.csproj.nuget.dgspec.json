@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\WebAPIGoldenData.csproj": {}
+    "C:\\Users\\vitor\\Documents\\fiap\\2° ANO\\.NET\\GoldenDataWebAPI\\WebAPIGoldenData\\WebAPIGoldenData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\WebAPIGoldenData.csproj": {
+    "C:\\Users\\vitor\\Documents\\fiap\\2° ANO\\.NET\\GoldenDataWebAPI\\WebAPIGoldenData\\WebAPIGoldenData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\WebAPIGoldenData.csproj",
+        "projectUniqueName": "C:\\Users\\vitor\\Documents\\fiap\\2° ANO\\.NET\\GoldenDataWebAPI\\WebAPIGoldenData\\WebAPIGoldenData.csproj",
         "projectName": "WebAPIGoldenData",
-        "projectPath": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\WebAPIGoldenData.csproj",
+        "projectPath": "C:\\Users\\vitor\\Documents\\fiap\\2° ANO\\.NET\\GoldenDataWebAPI\\WebAPIGoldenData\\WebAPIGoldenData.csproj",
         "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitor\\source\\repos\\WebAPIGoldenData\\WebAPIGoldenData\\obj\\",
+        "outputPath": "C:\\Users\\vitor\\Documents\\fiap\\2° ANO\\.NET\\GoldenDataWebAPI\\WebAPIGoldenData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,23 +46,35 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.ML.FastTree": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             },
             "Oracle.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.23.50, )"
+              "version": "[8.23.60, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.9.0, )"
             }
           },
           "imports": [

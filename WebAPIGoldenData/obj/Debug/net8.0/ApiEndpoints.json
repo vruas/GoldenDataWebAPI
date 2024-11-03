@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "WebAPIGoldenData.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "WebAPIGoldenData.Controllers.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebAPIGoldenData.Controllers.ConsumidorController",
     "Method": "AtualizarConsumidor",
     "RelativePath": "api/Consumidor/AtualizarConsumidor",
@@ -114,6 +130,280 @@
     "ReturnTypes": [
       {
         "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.ConsumidorModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.FeedbackController",
+    "Method": "BuscarFeedbacksPorId",
+    "RelativePath": "api/Feedback/BuscarFeedbackPorId/{idFeedback}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idFeedback",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[WebAPIGoldenData.Models.FeedbackModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.FeedbackController",
+    "Method": "BuscarFeedbackPorIdConsumidor",
+    "RelativePath": "api/Feedback/BuscarFeedbackPorIdConsumidor/{idConsumidor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idConsumidor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.FeedbackModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.FeedbackController",
+    "Method": "CriarFeedback",
+    "RelativePath": "api/Feedback/CriarFeedback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarFeedbackDto",
+        "Type": "WebAPIGoldenData.Dto.Feedback.CriarFeedbackDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.FeedbackModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.FeedbackController",
+    "Method": "DeletarFeedback",
+    "RelativePath": "api/Feedback/DeletarFeedback",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idFeedback",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.FeedbackModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.FeedbackController",
+    "Method": "EditarFeedback",
+    "RelativePath": "api/Feedback/EditarFeedback",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarFeedbackDto",
+        "Type": "WebAPIGoldenData.Dto.Feedback.EditarFeedbackDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.FeedbackModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.FeedbackController",
+    "Method": "ListarFeedBacks",
+    "RelativePath": "api/Feedback/ListarFeedbacks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[WebAPIGoldenData.Models.FeedbackModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.HistoricoCompraController",
+    "Method": "BuscarHistoricoCompraPorId",
+    "RelativePath": "api/HistoricoCompra/BuscarHistoricoCompraPorId/{idHistoricoCompra}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idHistoricoCompra",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[WebAPIGoldenData.Models.HistoricoCompraModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.HistoricoCompraController",
+    "Method": "BuscarHistoricoCompraPorIdConsumidor",
+    "RelativePath": "api/HistoricoCompra/BuscarHistoricoCompraPorIdConsumidor/{idConsumidor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idConsumidor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.HistoricoCompraModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.HistoricoCompraController",
+    "Method": "DeletarHistoricoCompra",
+    "RelativePath": "api/HistoricoCompra/DeletarHistoricoCompra",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idHistoricoCompra",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.HistoricoCompraModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.HistoricoCompraController",
+    "Method": "InserirHistoricoCompra",
+    "RelativePath": "api/HistoricoCompra/InserirHistoricoCompra",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarHistCompraDto",
+        "Type": "WebAPIGoldenData.Dto.HistoricoCompra.CriarHistCompraDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.HistoricoCompraModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.HistoricoCompraController",
+    "Method": "ListarHistoricosCompra",
+    "RelativePath": "api/HistoricoCompra/ListarHistoricosCompra",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.HistoricoCompraModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -264,6 +554,156 @@
     "ReturnTypes": [
       {
         "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[WebAPIGoldenData.Models.InfoConsumidorModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.PagamentoController",
+    "Method": "BuscarPagamentoPorId",
+    "RelativePath": "api/Pagamento/BuscarPagamentoPorId/{idPagamento}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPagamento",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[WebAPIGoldenData.Models.PagamentoModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.PagamentoController",
+    "Method": "BuscarPagamentoPorIdHistoricoCompra",
+    "RelativePath": "api/Pagamento/BuscarPagamentoPorIdHistoricoCompra/{idHistoricoCompra}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idHistoricoCompra",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.PagamentoModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.PagamentoController",
+    "Method": "DeletarPagamento",
+    "RelativePath": "api/Pagamento/DeletarPagamento",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPagamento",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.PagamentoModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.PagamentoController",
+    "Method": "InserirPagamento",
+    "RelativePath": "api/Pagamento/InserirPagamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarPagamentoDto",
+        "Type": "WebAPIGoldenData.Dto.Pagamento.CriarPagamentoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.PagamentoModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.PagamentoController",
+    "Method": "ListarPagamentos",
+    "RelativePath": "api/Pagamento/ListarPagamentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIGoldenData.Models.PagamentoModel, WebAPIGoldenData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIGoldenData.Controllers.SentimentoController",
+    "Method": "PreverSentimento",
+    "RelativePath": "api/Sentimento/prever",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedback",
+        "Type": "WebAPIGoldenData.Controllers.FeedbackInputPrediction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIGoldenData.Controllers.SentimentoResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",

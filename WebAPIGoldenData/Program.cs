@@ -5,7 +5,11 @@ using System.Text;
 using WebAPIGoldenData.Data;
 using WebAPIGoldenData.Services;
 using WebAPIGoldenData.Services.Consumidor;
+using WebAPIGoldenData.Services.Feedback;
+using WebAPIGoldenData.Services.HistoricoCompra;
 using WebAPIGoldenData.Services.InfoConsumidor;
+using WebAPIGoldenData.Services.Pagamento;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +32,10 @@ builder.Services.AddScoped<TokenService>();
 
 builder.Services.AddScoped<IConsumidorInterface, ConsumidorService>();
 builder.Services.AddScoped<IInfoConsumidorInterface, InfoConsumidorService>();
+builder.Services.AddScoped<IFeedbackInterface, FeedbackService>();
+builder.Services.AddScoped<IHistoricoCompraInterface, HistoricoCompraService>();
+builder.Services.AddScoped<IPagamentoInterface, PagamentoService>();
+
 
 
 builder.Services.AddSwaggerGen(c =>
