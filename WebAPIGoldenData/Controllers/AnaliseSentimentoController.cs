@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.ML;
 using Microsoft.ML.Data;
 using System;
@@ -43,6 +44,7 @@ namespace WebAPIGoldenData.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class SentimentoController : ControllerBase
     {
         private readonly string caminhoModelo = Path.Combine(Environment.CurrentDirectory, "wwwroot", "MLModels", "ModeloSentimento.zip");
@@ -84,7 +86,7 @@ namespace WebAPIGoldenData.Controllers
                     nameof(FeedbackInput.Avaliacao)))
                 .Append(mlContext.Transforms.Conversion.MapValueToKey(
                     outputColumnName: "Label",
-                    inputColumnName: nameof(FeedbackInput.Sentimento))) // Define o rótulo como "Sentimento"
+                    inputColumnName: nameof(FeedbackInput.Sentimento))) 
                 .Append(mlContext.MulticlassClassification.Trainers.OneVersusAll(
                     mlContext.BinaryClassification.Trainers.SdcaLogisticRegression()))
                 .Append(mlContext.Transforms.Conversion.MapKeyToValue(

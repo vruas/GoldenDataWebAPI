@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebAPIGoldenData.Dto.Pagamento;
 using WebAPIGoldenData.Models;
@@ -8,6 +9,7 @@ namespace WebAPIGoldenData.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PagamentoController : ControllerBase
     {
         private readonly IPagamentoInterface _pagamentoInterface;
