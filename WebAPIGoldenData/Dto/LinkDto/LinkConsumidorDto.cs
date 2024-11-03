@@ -1,6 +1,6 @@
-﻿namespace WebAPIGoldenData.Dto.LinkConsumidorInfo
+﻿namespace WebAPIGoldenData.Dto.LinkConsumidor
 {
-    public class LinkConsumidorInfoDto
+    public class LinkConsumidorDto
     {
         public int IdConsumidor { get; set; }
         public string Nome { get; set; }

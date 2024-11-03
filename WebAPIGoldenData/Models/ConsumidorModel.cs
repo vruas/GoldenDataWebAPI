@@ -30,5 +30,9 @@ namespace WebAPIGoldenData.Models
 
         [JsonIgnore]
         public ICollection<InfoConsumidorModel> InfosConsumidor { get; set; }
+        [JsonIgnore]
+        public ICollection<FeedbackModel> Feedbacks { get; set; }
+        [JsonIgnore]
+        public ICollection<HistoricoCompraModel> HistoricoCompras { get; set; }
     }
 }

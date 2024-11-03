@@ -1,4 +1,4 @@
-﻿using WebAPIGoldenData.Dto.LinkConsumidorInfo;
+﻿using WebAPIGoldenData.Dto.LinkConsumidor;
 
 namespace WebAPIGoldenData.Dto.InfoConsumidor
 {
@@ -17,6 +17,6 @@ namespace WebAPIGoldenData.Dto.InfoConsumidor
 
         public string CompraOnline { get; set; }
 
-        public LinkConsumidorInfoDto Consumidor { get; set; }
+        public LinkConsumidorDto Consumidor { get; set; }
     }
 }
