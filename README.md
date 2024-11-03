@@ -88,6 +88,33 @@ Utilizamos DTOs para transferir dados entre camadas de forma segura e eficiente,
 - **Testabilidade**: A lógica de negócios isolada facilita a criação de testes unitários e de integração.
 - **Escalabilidade**: A estrutura modular permite expandir o sistema com baixo impacto no código existente.
 
+## Princípios Utilizados
+
+### Clean Code
+
+- **Legibilidade**: Nomes descritivos como `ListarFeedBacks`, `BuscarFeedbackPorId`, e `CriarFeedback` tornam o código intuitivo.
+- **Facilidade de Manutenção**: Métodos com responsabilidade única permitem alterações localizadas.
+- **Redução de Erros**: A prática de verificar nulos antes de retornar dados evita exceções.
+- **Aumento da Produtividade**: Estrutura clara e organizada facilita a compreensão e o desenvolvimento.
+- **Melhor Colaboração**: Interfaces bem definidas promovem trabalho independente entre membros da equipe.
+
+### SOLID
+
+- **Single Responsibility Principle**: Cada método no controller e nos serviços possui uma única responsabilidade.
+- **Open/Closed Principle**: O código está aberto a extensões e fechado para modificações, permitindo adicionar novas funcionalidades sem impactar o existente.
+- **Liskov Substitution Principle**: O uso de interfaces permite que implementações sejam trocadas sem afetar a lógica do sistema.
+- **Interface Segregation Principle**: Interfaces pequenas e focadas garantem que o código seja modular e fácil de entender.
+- **Dependency Inversion Principle**: O controller depende de abstrações (interfaces), facilitando a troca de implementações e reduzindo o acoplamento.
+
+## Benefícios
+
+- **Facilidade de Extensão**: Novas funcionalidades podem ser adicionadas sem necessidade de modificar o código existente.
+- **Reutilização de Código**: A implementação do padrão de repositório permite que a lógica de acesso a dados seja reutilizada em diferentes partes da aplicação.
+- **Flexibilidade e Manutenção**: A separação clara entre camadas promove uma arquitetura que é fácil de modificar.
+- **Melhor Testabilidade**: A estrutura modular facilita a criação de testes unitários, aumentando a confiabilidade do sistema.
+
+
+
 ---
 
 ## Guia para Testar a API com Swagger
