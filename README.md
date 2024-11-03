@@ -1,101 +1,99 @@
-INTEGRANTES:
+#  A Golden Data
 
-98774 -	Gabriel Previ de Oliveira (2TDSPV)
+Golden Data é uma plataforma inovadora que facilita a troca direta de informações entre empresas e clientes, maximizando a personalização de serviços e campanhas de marketing. Desenvolvida especialmente para o comércio eletrônico, a Golden Data tem como objetivo aprimorar a experiência do cliente e aumentar o retorno sobre investimento (ROI) das empresas por meio de segmentação precisa e conteúdo direcionado.
 
-97850 -	Gustavo Soares Fosaluza (2TDSPF)
+---
 
-551692 - Mateus Vinicius da Conceição Silva (2TDSPV)
+## Integrantes do Projeto
 
-552000 - Pedro Henrique Figueiredo de Oliveira (2TDSPV)
+| Nome | Matrícula | Turma |
+|------|-----------|-------|
+| Gabriel Previ de Oliveira | 98774 | 2TDSPV |
+| Gustavo Soares Fosaluza | 97850 | 2TDSPF |
+| Mateus Vinicius da Conceição Silva | 551692 | 2TDSPV |
+| Pedro Henrique Figueiredo de Oliveira | 552000 | 2TDSPV |
+| Vitor da Silva Ruas | 550871 | 2TDSPV |
 
-550871 - Vitor da Silva Ruas (2TDSPV)
+---
 
+## Visão Geral da Plataforma
 
+### Funcionamento
+Golden Data oferece uma plataforma onde clientes compartilham suas preferências de produtos e serviços por meio de pesquisas no aplicativo. Empresas, por sua vez, utilizam essas informações para direcionar ofertas e anúncios de forma mais assertiva, otimizando a comunicação com o público-alvo.
 
+### Planos de Serviço
+Golden Data oferece uma versão gratuita para avaliação e dois planos pagos para empresas:
 
-# Golden Data
+- **Plano Beta**: Acesso completo aos dados dos clientes mediante pagamento.
+- **Plano Sócios**: Inclui desconto nos serviços e envio de cupons de desconto diretamente aos clientes.
 
-**Golden Data** é uma plataforma inovadora que facilita a troca direta de informações entre empresas e clientes, maximizando a personalização de serviços e campanhas de marketing, especialmente voltada para o comércio eletrônico. Nosso objetivo é aprimorar a experiência do cliente e aumentar o retorno sobre investimento (ROI) das empresas por meio de segmentação precisa e conteúdo direcionado.
+### Entrega de Cupons
+Os cupons de desconto são enviados por e-mail, e ao clicar neles, o cliente é direcionado para a tela de login para resgatar o desconto. Essa abordagem melhora a comunicação e fortalece o relacionamento entre empresas e clientes.
 
-## Funcionamento da Plataforma
-
-Os clientes da Golden Data são incentivados a compartilhar seus interesses por meio de checkboxes em nosso aplicativo, especificando preferências de produtos e serviços que consomem online. As empresas, por sua vez, podem filtrar essas informações para direcionar ofertas e anúncios de forma mais assertiva, otimizando a comunicação e atingindo seu público-alvo com eficiência.
-
-## Autenticação e Validação de Dados
-
-Para garantir a integridade das informações e estar em conformidade com a Lei Geral de Proteção de Dados (LGPD), utilizamos validação de CPF para clientes e CNPJ para empresas. A plataforma oferece dois tipos de login:
-
-- **Clientes**: Validação por CPF.
-- **Empresas**: Validação por CNPJ.
-
-## Planos de Serviço
-
-A Golden Data oferece uma versão gratuita de avaliação e dois planos pagos para empresas:
-
-- **Plano Beta**: Acesso completo aos dados dos clientes mediante pagamento integral.
-- **Plano Sócios**: Além de descontos nos serviços, permite o envio de cupons de desconto diretamente aos clientes, potencializando as vendas.
-
-## Entrega de Cupons
-
-Os cupons de desconto são enviados por email, criando um canal direto e personalizado entre empresas e clientes. Ao clicar no cupom, o cliente é direcionado à tela de login para resgatar o desconto. Essa integração estimula o fornecimento de emails, permitindo uma comunicação mais eficiente.
+---
 
 ## Tecnologias Utilizadas
 
-Para proporcionar personalização e inteligência em tempo real, a Golden Data utiliza tecnologias avançadas:
+Golden Data utiliza tecnologias avançadas para fornecer personalização e inteligência em tempo real:
 
-- **Machine Learning**: Análise preditiva e segmentação inteligente dos dados dos clientes.
-- **Deep Analytics**: Insights detalhados sobre comportamento e tendências de mercado.
+- **Machine Learning**: Análise preditiva e segmentação inteligente dos dados.
+- **Deep Analytics**: Insights detalhados sobre o comportamento dos clientes e tendências do mercado.
 - **IA Generativa**: Criação de conteúdo personalizado com base nos interesses e comportamentos dos clientes.
 
-Essas tecnologias permitem que as empresas otimizem suas campanhas de marketing e criem conteúdos altamente relevantes para cada perfil de cliente.
+Essas tecnologias ajudam as empresas a otimizar campanhas de marketing e gerar conteúdos relevantes para cada perfil de cliente.
+
+---
 
 ## Benefícios para as Empresas
 
-Com a Golden Data, as empresas podem:
+- **Aumento da taxa de conversão** com campanhas segmentadas.
+- **Melhoria na experiência do cliente** com ofertas no momento ideal.
+- **Segmentação avançada** para uma comunicação mais eficiente.
+- **Conteúdo personalizado** de acordo com os interesses do público-alvo.
+- **Identificação de clientes em risco de churn** com ações preventivas.
+- **Otimização da jornada do cliente**, desde o primeiro contato até a conversão.
 
-- **Aumentar a taxa de conversão** por meio de campanhas segmentadas.
-- **Melhorar a experiência do cliente** entregando ofertas no momento certo.
-- **Realizar segmentações avançadas** para uma comunicação mais eficaz.
-- **Criar conteúdo personalizado** alinhado com os interesses do público-alvo.
-- **Identificar clientes em risco de churn** e agir preventivamente.
-- **Otimizar a jornada do cliente**, do primeiro contato até a conversão.
+---
 
-## Arquitetura do Projeto
+# Projeto Web API .NET Core [ C# ]
 
-No estágio inicial do Golden Data, optamos por uma **arquitetura monolítica** para garantir um desenvolvimento ágil e de baixo custo. Essa abordagem facilita a validação do produto e do modelo de negócios, além de permitir modificações rápidas. No entanto, conforme a plataforma crescer, uma **migração gradual para microserviços** será considerada, a fim de garantir escalabilidade e maior flexibilidade no gerenciamento de serviços.
+## Sistema
 
-## Design Patterns Utilizados
+A plataforma Golden Data oferece serviços tanto para empresa quanto para os clientes das empresas. Neste projeto, direcionamos nosso foco as empresas. Lidamos com dados dos consumidores: informações pessoais, preferencias de compra, histórico de compras, forma de pagamento e feedbacks. Esses dados são disponibilizados para as empresas que contratam o serviço através da plataforma para Empresas, enquanto a personalização de serviços, fidelização do cliente, descontos, cupons, bonus, promoções são do lado consumidor, clientes que se propuseram participar da nossa pesquisa. Foco desse projeto é na Empresa
 
-Neste projeto, utilizamos dois padrões de design principais para estruturar o código e promover boas práticas de desenvolvimento: **Repository Pattern** e **Service Layer Pattern**. Esses padrões garantem que a aplicação seja modular, fácil de manter e escalável, promovendo a separação de responsabilidades e a redução de acoplamento entre as camadas.
+## Arquitetura do Sistema
+
+Iniciamos o projeto com uma **arquitetura monolítica** para acelerar o desenvolvimento e validar o produto. No futuro, planeja-se uma **migração para microserviços**, que garantirá escalabilidade e maior flexibilidade para o crescimento da plataforma.
+
+---
+
+## Padrões de Design Utilizados
 
 ### Repository Pattern
+Utilizado para isolar a lógica de acesso aos dados, facilitando a manutenção e a possibilidade de troca de fontes de dados (como bancos de dados ou APIs externas) sem afetar as demais camadas da aplicação. 
 
-O **Repository Pattern** é usado para isolar a lógica de acesso a dados do restante da aplicação. Isso facilita a manutenção e a troca de fontes de dados (como bancos de dados ou APIs externas) sem afetar as camadas superiores do sistema. No nosso projeto, a classe `ApplicationDbContext.cs` (dentro da pasta **Data**) gerencia a interação com o banco de dados, enquanto os repositórios, se adicionados no futuro, encapsularão as operações CRUD.
-
-Esse padrão também facilita a criação de testes unitários, pois permite o uso de repositórios falsos (mocked repositories) para simular interações com o banco de dados.
+Exemplo: `ApplicationDbContext.cs` gerencia a interação com o banco de dados, e repositórios futuros encapsularão operações CRUD.
 
 ### Service Layer Pattern
+Manter a lógica de negócios separada da camada de apresentação e da camada de dados promove a reutilização de código e facilita mudanças futuras na lógica de negócios sem impacto direto nas camadas de interface ou persistência de dados.
 
-O **Service Layer Pattern** é utilizado para manter a lógica de negócios separada da camada de apresentação (controladores) e da camada de dados. Isso promove a reutilização de código e facilita futuras alterações na lógica de negócios sem impacto direto nas camadas de interface ou persistência de dados.
+Exemplo: `ConsumidorService.cs` gerencia a lógica de consumidores, mantendo a camada de controladores livre de lógica complexa.
 
-Cada módulo da aplicação possui seus próprios serviços, como o `ConsumidorService.cs`, que gerencia a lógica relacionada a consumidores, garantindo que os controladores apenas orquestrem as chamadas sem conter lógica de negócios diretamente.
-
-### DTO (Data Transfer Object)
-
-Para garantir a segurança e eficiência na transferência de dados entre as camadas, usamos o padrão **Data Transfer Object (DTO)**. Os DTOs, como `CriarConsumidorDto.cs` e `EditarConsumidorDto.cs`, encapsulam os dados necessários para operações específicas, como criação ou edição de consumidores. Isso mantém a integridade dos dados e evita o envio de informações desnecessárias.
+### Data Transfer Object (DTO)
+Utilizamos DTOs para transferir dados entre camadas de forma segura e eficiente, garantindo integridade e evitando o envio de informações desnecessárias. Exemplo: `CriarConsumidorDto.cs` e `EditarConsumidorDto.cs`.
 
 ### Vantagens dos Padrões Utilizados
 
-- **Manutenibilidade**: A separação clara das responsabilidades facilita a manutenção e adição de novas funcionalidades.
-- **Testabilidade**: A lógica de negócios isolada em serviços e o uso do Repository Pattern tornam o código altamente testável, promovendo testes unitários e de integração.
-- **Escalabilidade**: À medida que a aplicação cresce, a estrutura modular permite adicionar novas funcionalidades e fontes de dados com o mínimo de impacto no código existente.
+- **Manutenibilidade**: Separação clara de responsabilidades facilita a manutenção e a expansão de funcionalidades.
+- **Testabilidade**: A lógica de negócios isolada facilita a criação de testes unitários e de integração.
+- **Escalabilidade**: A estrutura modular permite expandir o sistema com baixo impacto no código existente.
 
-Essa arquitetura garante que o sistema permaneça limpo, desacoplado e fácil de evoluir, fornecendo uma base sólida para futuras implementações, como integração com novas fontes de dados, serviços externos e funcionalidades adicionais.
+---
 
-## Passo a Passo para Testar a API com o Swagger
+## Guia para Testar a API com Swagger
 
-### Passo 1: Abrir o Swagger UI
-Após executar a API, o navegador abrirá a interface do **Swagger UI**. A URL geralmente será algo como:
+### Passo 1: Abrir a Interface do Swagger
+Após iniciar a API, acesse o **Swagger UI** pelo navegador. A URL será algo como:
 
 https://localhost:7273/swagger/index.html
 
@@ -103,32 +101,64 @@ https://localhost:7273/swagger/index.html
 (O número da porta pode variar conforme o ambiente de execução).
 
 ### Passo 2: Explorar os Endpoints
-Na interface do **Swagger**, você verá a lista de todos os endpoints disponíveis em sua API, organizados por controladores.
+Na interface do **Swagger**, visualize todos os endpoints disponíveis organizados por controladores. Expanda cada endpoint para ver detalhes como método HTTP, parâmetros e respostas.
 
-- Cada endpoint terá uma breve descrição.
-- O método HTTP associado (GET, POST, PUT, DELETE) será exibido.
-- Haverá uma opção de expandir para visualizar detalhes, como parâmetros e respostas.
+### Login e Autenticação com token (JWT)
 
-### Passo 3: Testar um Endpoint
-1. Clique em um endpoint para expandi-lo.
-2. Caso o endpoint exija parâmetros, como **body**, eles serão exibidos para preenchimento.
-3. Após preencher os parâmetros necessários, clique em **Try it out**.
-4. O Swagger enviará uma requisição para o endpoint e retornará a resposta, incluindo:
-   - **Status code**
-   - **Corpo da resposta**
-   - **Cabeçalho da requisição**
+Antes de testar os endpoints, primeiro certifique-se de estar autenticado, caso contrário sua requisição será recusada (401)
 
-### Passo 4: Verificar a Resposta
-Após executar a requisição no Swagger:
+![Captura de tela 2024-11-03 165435](https://github.com/user-attachments/assets/c6a5b6db-900f-4ffe-a2a3-ec96cb16613e)--- Tentativa sem autenticação com o token
 
-1. A resposta será exibida logo abaixo, mostrando o **status HTTP** (ex.: 200 OK, 404 Not Found, etc.).
-2. O **corpo da resposta** será mostrado no formato JSON (ou outro formato, dependendo do tipo de conteúdo retornado pela API).
-3. Você pode revisar as informações e, se necessário, ajustar os parâmetros e tentar novamente.
-4. Atente-se aos tipos de dados que o endpoint pede para preencher (string, int, bool, double...)
 
+![Captura de tela 2024-11-03 165554](https://github.com/user-attachments/assets/fa7a7360-efb6-4615-80d6-4130b494782a)--- O erro 401 Unauthorized indica que o acesso ao recurso solicitado foi recusado porque o usuário não está 
+autenticado ou a autenticação fornecida não é válida
+
+![Captura de tela 2024-11-03 165725](https://github.com/user-attachments/assets/a7d14f75-21ff-426d-9e31-7dd0bdf70e93)--- Acesse o endpoint login e insira as credenciais que estão sendo exigidas  username: "admin" | password: "gd123"
+
+![Captura de tela 2024-11-03 165809](https://github.com/user-attachments/assets/22a3b9be-b1c6-4167-b22e-a56197c59a79)--- Após executar a requisição, o token será disponibilizado, copie o token
+
+![Captura de tela 2024-11-03 165947](https://github.com/user-attachments/assets/21e6623c-5608-4204-9eb3-ef48c5fa739c)--- No canto superior direito da interface do Swagger voce encontrará um botão [Authorize] clique no botão
+
+![Captura de tela 2024-11-03 175850](https://github.com/user-attachments/assets/f7280534-4360-49bb-8496-f26bf3edf544)--- Insira no campo a palavra Bearer e cole o token que voce copiou e em seguida clique em [Authorize]
+
+![Captura de tela 2024-11-03 170051](https://github.com/user-attachments/assets/07cc3db6-1372-4e7a-ba27-eb77de32e616)--- Aqui é mostrado a autorização disponível para uso
+
+![Captura de tela 2024-11-03 170207](https://github.com/user-attachments/assets/8e4aa2d0-3b61-47d7-8ce6-1b936009ced0)--- Tente executar um endpoint protegido novamente, o resultado obtido será semelhante ao da imagem
+
+OBS: O token gerado tem validade de 1 minuto após esse tempo será necessário fazer lpgin novamente
+
+### Passo 4: Testar um Endpoint
+1. Selecione um endpoint e clique para expandir.
+2. Preencha os parâmetros necessários.
+3. Clique em **Try it out** para enviar uma requisição.
+4. O Swagger retorna a resposta, incluindo:
+   - **Código de status** (ex.: 200 OK, 404 Not Found).
+   - **Corpo da resposta** no formato JSON.
+   - **Cabeçalhos da requisição**.
+
+### Passo 4: Revisar a Resposta
+
+- Verifique a resposta retornada e, se necessário, ajuste os parâmetros e tente novamente.
+- O **tipo de dados** (string, int, bool, double, etc.) deve ser conferido ao preencher os parâmetros.
+
+--- 
+
+## Machine Learning com ML NET
+
+API em .NET Core para previsão de sentimento a partir de comentários e avaliações de clientes, usando aprendizado de máquina com o ML.NET. A API lê comentários e avaliações de clientes, passa por um modelo de ML treinado, e retorna se o sentimento é "Positivo" ou "Negativo". Ele não usa técnicas avançadas de Processamento de Linguagem Natural (NLP) para interpretar o contexto ou as nuances do texto do comentário. Em vez disso, a decisão sobre o sentimento é influenciada mais pela avaliação numérica (de 1 a 5) do que pelo conteúdo textual do comentário. Este modelo foi criado conforme os passos ensinados em aula com algumas modificações para atender os requisitos do resultado desejado
 
 
 ## Evidências:
+
+![image](https://github.com/user-attachments/assets/ea44237f-5072-4d97-bd75-0be671d52018)
+
+![image](https://github.com/user-attachments/assets/9fccd113-141b-4b35-aeec-26ad8843d7da)
+
+![image](https://github.com/user-attachments/assets/d0d980f7-f178-44f4-83af-334f0fb85065)
+
+![image](https://github.com/user-attachments/assets/b94e0da8-e962-454b-82b3-18164a544f2a)
+
+
 
 ![endpoints](https://github.com/user-attachments/assets/910a6840-7ca1-40ec-b873-030b3bb1e342)
 
