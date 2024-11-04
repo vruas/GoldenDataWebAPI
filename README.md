@@ -1,5 +1,12 @@
 #  A Golden Data
 
+
+
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/5852c70d-e683-41af-b50b-d41477905e27" alt="Golden Data - Logo" width="200"/>
+</p>
+
+
 Golden Data é uma plataforma inovadora que facilita a troca direta de informações entre empresas e clientes, maximizando a personalização de serviços e campanhas de marketing. Desenvolvida especialmente para o comércio eletrônico, a Golden Data tem como objetivo aprimorar a experiência do cliente e aumentar o retorno sobre investimento (ROI) das empresas por meio de segmentação precisa e conteúdo direcionado.
 
 ---
